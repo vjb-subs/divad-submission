@@ -6,8 +6,6 @@ The widespread adoption of digital services, along with the scale and complexity
 
 Our DIVAD methods and experiments are currently only available here, but will be moved to the [Exathlon repository](https://github.com/exathlonbenchmark/exathlon) in the future, with further indications to reproduce all our experimental results.
 
-To download the Spark Streaming dataset, please follow the instructions described in the [Exathlon repository](https://github.com/exathlonbenchmark/exathlon).
-
 Please find:
 
 - The technical report of our VLDB subsmission [here](technical-report.pdf).
@@ -52,7 +50,7 @@ This repository contains the labeled dataset and source code for comparing vario
 
 ## Project Configuration
 
-The data traces and ground truth table were uploaded as zip files under the `data/raw` directory. To extract them on Linux, macOS, or using Git Bash on Windows, execute the `extract_data` script from the project root folder:
+The data traces and ground truth table were uploaded as zip files under the `data/raw` directory of the [Exathlon repository](https://github.com/exathlonbenchmark/exathlon). To extract them on Linux, macOS, or using Git Bash on Windows, execute the `extract_data` script from the project root folder:
 
 ```bash
 $ ./extract_data.sh
